@@ -1,26 +1,33 @@
 import React, { useState } from 'react'
 
-const EmployeeForm = () => {
+const EmployeeForm = ({ addEmp }) => {
 
-    const [emp, setEmp] = useState({id:'',name:'',roal:'',salary:''})
+  const [emp, setEmp] = useState({ id: '', name: '', role: '', salary: '' })
 
-    const handelEmp = (e) =>{
-        e.preventDefult()
-        let {name,value}= e.target;
+  const handleChange = (e) => {
 
-        setEmp
+    const { name, value } = e.target
+    setEmp({ ...emp, [name]: value })
+
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefult()
+    addEmp(emp)
+    setEmp({ id: '', name: '', role: '', salary: '' })
     }
 
   return (
     <div>
       <h2>Add Employee Form</h2>
-      <form onsub>
-        Enter Id : <input type='text' name='id' value={emp.id} onChange={handelEmp}/> <br/><br/>
-        Enter Name : <input type='text' name='id' value={emp.name} onChange={handelEmp}/><br/><br/>
-        Enter Roal : <input type='text' name='id' value={emp.roal} onChange={handelEmp}/><br/><br/>
-        Enter Salary : <input type='text' name='id' value={emp.salary} onChange={handelEmp}/><br/><br/>
+      <form onSubmit={handleSubmit}>
+        Enter Id : <input type='text' name='id' value={emp.id} onChange={handleChange} /> <br /><br />
+        Enter Name : <input type='text' name='name' value={emp.name} onChange={handleChange} /><br /><br />
+        Enter Roal : <input type='text' name='roal' value={emp.role} onChange={handleChange} /><br /><br />
+        Enter Salary : <input type='text' name='salary' value={emp.salary} onChange={handleChange} /><br /><br />
+        <button type='submit'> Add Employee</button>
       </form>
-      <button > Add Employee</button>
+
     </div>
   )
 }

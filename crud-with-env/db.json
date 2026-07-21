@@ -1,0 +1,67 @@
+{
+  "employees": [
+    {
+      "name": "Liam Carter",
+      "role": "Software Engineer",
+      "salary": 95000,
+      "id": "gk8tOQKMeB0"
+    },
+    {
+      "name": "Olivia Martinez",
+      "role": "Data Analyst",
+      "salary": 72000,
+      "id": "RzrpJ13OeSM"
+    },
+    {
+      "name": "Noah Brooks",
+      "role": "Product Manager",
+      "salary": 110000,
+      "id": "MbU3144irdU"
+    },
+    {
+      "name": "Ethan Wright",
+      "role": "DevOps",
+      "salary": 105000,
+      "id": "Ug4y8kjPmtQ"
+    }
+  ],
+  "students": [
+    {
+      "name": "Liam Carter",
+      "standard": "10th Grade",
+      "marks": 95,
+      "id": "mcury_t3IaQ"
+    },
+    {
+      "name": "Olivia Martinez",
+      "standard": "10th Grade",
+      "marks": 72,
+      "id": "_yo407NU8e8"
+    },
+    {
+      "name": "Noah Brooks",
+      "standard": "11th Grade",
+      "marks": 90,
+      "id": "LbSJSrgO9JQ"
+    },
+    {
+      "name": "Ava Nguyen",
+      "standard": "11th Grade",
+      "marks": 85,
+      "id": "ZcD3FoO6sf8"
+    },
+    {
+      "name": "Ethan Wright",
+      "standard": "12th Grade",
+      "marks": "04",
+      "id": "JsJ6ronAbUw"
+    },
+    {
+      "name": "Mayur Koli",
+      "standard": "11th",
+      "marks": "45",
+      "id": "OzrYE3eVyAY"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

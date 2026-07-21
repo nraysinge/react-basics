@@ -1,0 +1,17 @@
+{
+  "employess": [
+    {
+      "name": "Rahul",
+      "role": "Developer",
+      "salary": "70000",
+      "id": "zFwv0OxinBM"
+    },
+    {
+      "name": "Mayur Koli",
+      "role": "deve",
+      "salary": "100000",
+      "id": "CVJrJh-tHZU"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,19 @@
+{
+    "students": [
+        {
+            "name": "Amit Sharma",
+            "email": "amit.sharma@example.com",
+            "phone": "+91-9876543210"
+        },
+        {
+            "name": "Priya Singh",
+            "email": "priya.singh@example.com",
+            "phone": "+91-9876543211"
+        },
+        {
+            "name": "Rahul Verma",
+            "email": "rahul.verma@example.com",
+            "phone": "+91-9876543212"
+        }
+    ]
+}

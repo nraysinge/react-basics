@@ -9,13 +9,10 @@ const ShowData = ({allemps}) => {
       <table border='2'>
         <thead>
             <tr>
-                <th>
-                    <td>ID</td>
-                    <td>NAME</td>
-                    <td>Roal</td>
-                    <td>SALARY</td>
-                    <td>Action</td>
-               </th>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>ROLE</th>
+                <th>SALARY</th>
             </tr>
         </thead>
                 
