@@ -1,0 +1,29 @@
+{
+  "ubers": [
+    {
+      "name": "Rahul",
+      "pic": "karve",
+      "drop": "warge",
+      "id": "M7xmgRDClkA"
+    },
+    {
+      "name": "Mayur Koli",
+      "pic": "de",
+      "drop": "ded",
+      "id": "1dEdtV1MjU4"
+    },
+    {
+      "name": "Narendra Raysinge",
+      "pic": "dedsdsdsds",
+      "drop": "ded",
+      "id": "wztYlUIGVpI"
+    },
+    {
+      "name": "Ethan Wright",
+      "pic": "fvfvfv",
+      "drop": "vfvfvfvdssd",
+      "id": "SgFwXEMGNqk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

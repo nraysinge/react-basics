@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "name": "mayur",
+      "email": "mayur",
+      "mobile": 123,
+      "role": "admin",
+      "password": 123,
+      "id": "1tTXJpzoi2E"
+    },
+    {
+      "name": "tina",
+      "email": "tina",
+      "mobile": 123,
+      "role": "admin",
+      "password": 123,
+      "id": "gc64kQBmtwQ"
+    },
+    {
+      "name": "raj",
+      "email": "raj",
+      "mobile": 123,
+      "role": "user",
+      "password": 123,
+      "id": "0K7-kksAhrU"
+    },
+    {
+      "name": "ved",
+      "email": "ved",
+      "mobile": 123,
+      "role": "user",
+      "password": 123,
+      "id": "sDW7Rletcbo"
+    },
+    {
+      "name": "ritik",
+      "email": "rititk",
+      "phone": "1787878",
+      "role": "dev",
+      "password": "123",
+      "id": "UAo8uS5BVbo",
+      "mobile": "1787878"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

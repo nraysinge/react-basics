@@ -1,0 +1,38 @@
+{
+  "Patient": [
+    {
+      "name": "John Doe",
+      "age": 45,
+      "gender": "Male",
+      "drname": "Dr. Sarah Jenkins",
+      "department": "Cardiology",
+      "mobileno": "+1-555-0199",
+      "email": "johndoe@example.com",
+      "status": "Discharged",
+      "id": "fymuMmhilFQ"
+    },
+    {
+      "name": "Jane Smith",
+      "age": 32,
+      "gender": "Female",
+      "drname": "Dr. Robert Chen",
+      "department": "Pediatrics",
+      "mobileno": "+1-555-0143",
+      "email": "janesmith@example.com",
+      "status": "Admitted",
+      "id": "sRoWqs5_wKw"
+    },
+    {
+      "name": "Narendra Raysinge",
+      "age": "24",
+      "gender": "male",
+      "drname": "Tejas Sir",
+      "department": "Developer",
+      "mobileno": "787788",
+      "email": "narendraraysinge26@gmail.com",
+      "status": "addmited",
+      "id": "JFvv5J5mQzw"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
