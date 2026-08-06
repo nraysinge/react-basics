@@ -1,0 +1,55 @@
+{
+  "employees": [
+    {
+      "id": "e1",
+      "name": "Aarav Sharma",
+      "email": "aarav@gmail.com",
+      "department": "Engineering",
+      "role": "Frontend Developer",
+      "status": "Active",
+      "password": "admin123",
+      "accessRole": "admin"
+    },
+    {
+      "id": "e2",
+      "name": "Priya Patel",
+      "email": "priya@gmail.com",
+      "department": "People",
+      "role": "HR Manager",
+      "status": "Inactive",
+      "password": "employee123",
+      "accessRole": "employee"
+    },
+    {
+      "id": "e3",
+      "name": "Rahul Verma",
+      "email": "rahul@gmail.com",
+      "department": "Sales",
+      "role": "Account Executive",
+      "status": "Active",
+      "password": "123",
+      "accessRole": "employee"
+    },
+    {
+      "id": "r9oVxok_NZM",
+      "name": "Narendra Raysinge",
+      "email": "narendraraysinge26@gmail.com",
+      "password": "1234",
+      "accessRole": "admin",
+      "department": "Operations",
+      "role": "Developer",
+      "status": "Active"
+    },
+    {
+      "id": "2SVUkZ7bb3U",
+      "name": "",
+      "email": "mk@gmail.com",
+      "password": "1234",
+      "accessRole": "employee",
+      "department": "Not assigned",
+      "role": "Employee",
+      "status": "Active"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
